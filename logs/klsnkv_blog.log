@@ -1,0 +1,71 @@
+2024-09-25 14:53:57,782 ERROR: Exception on /follow/alex [POST] [in /Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py:838]
+Traceback (most recent call last):
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/routes.py", line 112, in follow
+    if form.validate_on_submin():
+       ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmptyForm' object has no attribute 'validate_on_submin'. Did you mean: 'validate_on_submit'?
+2024-09-25 14:54:20,418 ERROR: Exception on /follow/alex [POST] [in /Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py:838]
+Traceback (most recent call last):
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/routes.py", line 112, in follow
+    if form.validate_on_submit():
+       ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmptyForm' object has no attribute 'validate_on_submin'. Did you mean: 'validate_on_submit'?
+2024-09-25 14:54:27,133 ERROR: Exception on /follow/alex [POST] [in /Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py:838]
+Traceback (most recent call last):
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/venv/lib/python3.12/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/routes.py", line 112, in follow
+    if form.validate_on_submit():
+       ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmptyForm' object has no attribute 'validate_on_submin'. Did you mean: 'validate_on_submit'?
+2024-09-25 14:54:34,398 INFO: KLSNKVs blog startup [in /Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/__init__.py:49]
+2024-09-25 16:32:01,838 INFO: KLSNKVs blog startup [in /Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/__init__.py:49]
+2024-09-27 21:49:33,637 INFO: KLSNKVs blog startup [in /Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/__init__.py:49]
+2024-09-27 23:24:21,575 INFO: KLSNKVs blog startup [in /Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/__init__.py:49]
+2024-09-27 23:31:28,470 INFO: KLSNKVs blog startup [in /Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/__init__.py:49]
+2024-09-27 23:35:24,723 INFO: KLSNKVs blog startup [in /Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/__init__.py:49]
+2024-09-27 23:35:40,382 INFO: KLSNKVs blog startup [in /Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/__init__.py:49]
+2024-12-01 22:43:19,106 INFO: KLSNKVs blog startup [in /Users/klsnkv/coding/python/flask_2024/blog_proj/app_package/__init__.py:73]
